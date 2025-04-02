@@ -2,7 +2,7 @@
 import { useState, useCallback, DragEvent, ChangeEvent } from 'react';
 import { Upload, File, X, Check } from 'lucide-react';
 import { Button } from "@/components/ui/button";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 import { Progress } from "@/components/ui/progress";
 
 interface FileUploaderProps {
